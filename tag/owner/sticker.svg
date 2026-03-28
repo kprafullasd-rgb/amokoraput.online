@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1080" height="540" viewBox="0 0 1080 540" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Scan to contact me privately</title>
+  <desc id="desc">Printable privacy-preserving contact sticker with QR code and masked number.</desc>
+  <defs>
+    <linearGradient id="base" x1="62" y1="36" x2="1002" y2="514" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F8EEDB"/>
+      <stop offset="1" stop-color="#EFDABD"/>
+    </linearGradient>
+    <radialGradient id="glowA" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(164 98) rotate(48.5) scale(280 252)">
+      <stop stop-color="#E16E3D" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#E16E3D" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowB" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(916 438) rotate(180) scale(290 250)">
+      <stop stop-color="#AC3A15" stop-opacity="0.2"/>
+      <stop offset="1" stop-color="#AC3A15" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="shadow" x="0" y="0" width="1080" height="540" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="18" stdDeviation="22" flood-color="#5B341F" flood-opacity="0.16"/>
+    </filter>
+    <style>
+      .eyebrow { font: 700 20px 'Arial', sans-serif; letter-spacing: 0.24em; text-transform: uppercase; fill: #8D2C10; }
+      .sticker-title { font: 700 48px 'Arial', sans-serif; fill: #12100E; }
+      .sticker-subtitle { font: 400 22px 'Arial', sans-serif; fill: #5F554C; }
+      .section-label { font: 700 18px 'Arial', sans-serif; letter-spacing: 0.18em; text-transform: uppercase; fill: #8D2C10; }
+      .code-label { font: 700 22px 'Arial', sans-serif; fill: #12100E; }
+      .hint-label { font: 400 18px 'Arial', sans-serif; fill: #5F554C; }
+      .mask-number { font: 700 28px 'Arial', sans-serif; fill: #12100E; }
+      .reason-text { font: 700 18px 'Arial', sans-serif; fill: #8D2C10; }
+      .reason-pill { fill: #D95F2F; fill-opacity: 0.12; stroke: #8D2C10; stroke-opacity: 0.15; }
+      .outline { stroke: #11100E; stroke-opacity: 0.12; }
+      .mini-card { fill: #FFFBF3; fill-opacity: 0.72; stroke: #11100E; stroke-opacity: 0.12; }
+    </style>
+  </defs>
+
+  <g filter="url(#shadow)">
+    <rect x="28" y="28" width="1024" height="484" rx="36" fill="url(#base)" class="outline"/>
+  </g>
+  <rect x="28" y="28" width="1024" height="484" rx="36" fill="url(#glowA)"/>
+  <rect x="28" y="28" width="1024" height="484" rx="36" fill="url(#glowB)"/>
+
+  <path d="M770 28H1016C1035.88 28 1052 44.1177 1052 64V306C978.667 273.333 884.667 223.333 770 156V28Z" fill="#FFFFFF" fill-opacity="0.18"/>
+  <path d="M28 418C110 407.333 190 417 268 447C314 464.667 355.333 486.333 392 512H64C44.1177 512 28 495.882 28 476V418Z" fill="#FFFFFF" fill-opacity="0.18"/>
+
+  <text x="56" y="84" class="eyebrow">NGF132-STYLE</text>
+  <text x="56" y="154" class="sticker-title">Scan to contact me</text><text x="56" y="194" class="sticker-title">privately</text>
+  <text x="56" y="286" class="sticker-subtitle">Call without seeing my</text><text x="56" y="308" class="sticker-subtitle">personal number.</text>
+
+  <g transform="translate(56 450)">
+    <text y="0" class="section-label">public masked number</text>
+    <text y="42" class="mask-number">Add masked number</text>
+  </g>
+
+  <g transform="translate(648 72)">
+    <rect width="360" height="396" rx="30" class="mini-card"/>
+    <text x="40" y="52" class="section-label">scan me</text>
+    <g transform="translate(39 82)">
+      <rect width="282" height="282" rx="28" fill="#F8F1DF" stroke="#11100E" stroke-opacity="0.08"/>
+      <g transform="translate(21 21)">
+        <path fill="#f8f1df" d="M0 0h31v31H0z"/><path stroke="#11100e" d="M1 1.5h7m1 0h1m2 0h2m2 0h6m1 0h7M1 2.5h1m5 0h1m1 0h2m1 0h1m2 0h2m1 0h1m2 0h1m1 0h1m5 0h1M1 3.5h1m1 0h3m1 0h1m3 0h1m1 0h4m2 0h3m1 0h1m1 0h3m1 0h1M1 4.5h1m1 0h3m1 0h1m1 0h1m2 0h2m4 0h1m1 0h1m2 0h1m1 0h3m1 0h1M1 5.5h1m1 0h3m1 0h1m3 0h2m1 0h1m5 0h1m2 0h1m1 0h3m1 0h1M1 6.5h1m5 0h1m2 0h4m1 0h1m1 0h4m2 0h1m5 0h1M1 7.5h7m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h7M9 8.5h1m1 0h1m1 0h4m1 0h1m1 0h1M1 9.5h1m1 0h2m1 0h3m1 0h1m1 0h4m2 0h2m3 0h1m2 0h1m1 0h2M1 10.5h3m2 0h1m1 0h1m2 0h1m5 0h1m1 0h7m3 0h1M1 11.5h2m1 0h1m2 0h1m1 0h1m1 0h1m3 0h1m1 0h3m2 0h2m1 0h1m1 0h2M2 12.5h1m1 0h1m1 0h1m1 0h1m1 0h1m2 0h3m3 0h1m1 0h2m2 0h1m3 0h1M5 13.5h3m3 0h2m3 0h1m1 0h3m5 0h2M2 14.5h1m1 0h2m4 0h2m1 0h2m1 0h2m2 0h1m1 0h2m3 0h3M1 15.5h2m1 0h1m1 0h2m1 0h1m1 0h1m1 0h1m1 0h1m1 0h4m2 0h3m1 0h3M2 16.5h1m1 0h2m2 0h2m2 0h1m1 0h1m2 0h1m2 0h5m3 0h1M1 17.5h1m1 0h1m1 0h1m1 0h6m3 0h1m2 0h4m1 0h3m1 0h1M2 18.5h1m3 0h1m2 0h1m1 0h1m1 0h2m1 0h1m2 0h1m4 0h1m1 0h3M1 19.5h1m1 0h6m3 0h2m2 0h2m4 0h1m1 0h2m1 0h1M3 20.5h1m2 0h1m2 0h2m1 0h2m2 0h3m3 0h1m2 0h1m1 0h1M2 21.5h1m1 0h2m1 0h1m1 0h1m4 0h1m3 0h10M9 22.5h2m1 0h4m1 0h1m1 0h3m3 0h5M1 23.5h7m1 0h2m3 0h1m2 0h2m1 0h2m1 0h1m1 0h2m1 0h1M1 24.5h1m5 0h1m1 0h1m1 0h1m4 0h1m2 0h1m1 0h1m3 0h2m1 0h1M1 25.5h1m1 0h3m1 0h1m4 0h2m1 0h1m2 0h1m2 0h5m1 0h2M1 26.5h1m1 0h3m1 0h1m1 0h1m4 0h5m1 0h3m1 0h3m2 0h1M1 27.5h1m1 0h3m1 0h1m1 0h1m1 0h1m1 0h3m2 0h2m2 0h1m1 0h1m2 0h1m1 0h1M1 28.5h1m5 0h1m2 0h3m2 0h1m1 0h1m2 0h3m1 0h3m1 0h1M1 29.5h7m1 0h2m1 0h1m2 0h2m3 0h2m2 0h1m3 0h1"/>
+      </g>
+    </g>
+    <text x="40" y="386" class="hint-label">Opens your private contact page.</text>
+  </g>
+
+  <g>
+    <text x="56" y="356" class="section-label">common reasons</text>
+    <g transform="translate(56 384)">
+          <rect width="146" height="40" rx="20" class="reason-pill"/>
+          <text x="73" y="26" text-anchor="middle" class="reason-text">Wrong parking</text>
+        </g><g transform="translate(218 384)">
+          <rect width="146" height="40" rx="20" class="reason-pill"/>
+          <text x="73" y="26" text-anchor="middle" class="reason-text">Lights on</text>
+        </g><g transform="translate(380 384)">
+          <rect width="146" height="40" rx="20" class="reason-pill"/>
+          <text x="73" y="26" text-anchor="middle" class="reason-text">Vehicle blocking</text>
+        </g>
+  </g>
+
+  <g transform="translate(648 486)">
+    <text class="code-label">Vehicle Owner</text>
+    <text x="0" y="26" class="hint-label">Real number stays hidden behind the call flow.</text>
+  </g>
+</svg>
